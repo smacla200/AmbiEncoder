@@ -151,6 +151,7 @@ void AmbiEncoderAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuf
         channelDataX[i] = audioIn * cos(azimuth);
         channelDataY[i] = audioIn * sin(azimuth);
         
+        
     }
 }
 
